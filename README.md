@@ -1,2 +1,2 @@
 # svccis
-The repository for the schools clubs website
+The repository for the school's club's website
