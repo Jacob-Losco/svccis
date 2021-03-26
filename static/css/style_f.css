@@ -1,0 +1,27 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Montserrat', sans-serif;
+}
+footer {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    background-color: #333333;
+    color: whitesmoke;
+    padding: 10px 5px;
+}
+.child {
+    display: inline-block;
+    font-size: 14px;
+    width: 100%;
+    text-align: center;
+}
+.child img {
+    transition: transform 0.40s;
+    padding: 5px 3px;
+}
+.child img:hover {
+    transform: scale(1.15);
+}
