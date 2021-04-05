@@ -1,5 +1,4 @@
 <p>test for header</p>
-<!DOCTYPE html>
 <html lang="en">
     <head>
         <title>Navbar</title>
@@ -27,7 +26,7 @@
     </style>
     </head>
     <div class="navbar">
-            <a href="home"><img src="header_logo.png" alt="CIS Logo"></a>
+            <a href="home"><img src="../static/images/header_logo.png" alt="CIS Logo"></a>
             <a href="projects_and_events">Projects and Events</a>
             <a href="roster">Roster</a></th>
             <a href="contact">Contact Us</a>
