@@ -1,23 +1,30 @@
-<p>test for header</p>
 <html lang="en">
     <head>
         <title>Navbar</title>
         <style>
         .navbar{
-            border: 2px solid yellow;
+            width: 100%;
+            display: table;
             overflow: hidden;
-            background-color: skyblue;
+            background-color: #333333;
         }
         .navbar a{
-            float: left;
             color: white;
-            text-align: left;
-            padding: 14px 16px;
+            text-align: right;
+            padding-right: 10px;
+            width: 10%;
             font-size: larger;
-            vertical-align: bottom;
+        }
+        .headerLeft{
+            float: left;
+        }
+        .headerRight{
+            display: table-cell;
+            vertical-align: middle;
+            align-items: center;
         }
         .navbar a:hover{
-            color: black;
+            color: #1A00FF;
         }
         img{
             width: 10vh;
@@ -26,9 +33,9 @@
     </style>
     </head>
     <div class="navbar">
-            <a href="home"><img src="../static/images/header_logo.png" alt="CIS Logo"></a>
-            <a href="projects_and_events">Projects and Events</a>
-            <a href="roster">Roster</a></th>
-            <a href="contact">Contact Us</a>
+            <a class="headerLeft" href="home"><img src="../static/images/header_logo.png" alt="CIS Logo"></a>
+            <a class="headerRight" href="projects_and_events">Projects and Events</a>
+            <a class="headerRight" href="roster">Roster</a></th>
+            <a class="headerRight" href="contact">Contact Us</a>
     </div>
 </html>
