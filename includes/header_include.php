@@ -26,14 +26,14 @@
         .navbar a:hover{
             color: #1A00FF;
         }
-        img{
+        #headerImage{
             width: 10vh;
             height: 10vh;
         }
     </style>
     </head>
     <div class="navbar">
-            <a class="headerLeft" href="home"><img src="../static/images/header_logo.png" alt="CIS Logo"></a>
+            <a class="headerLeft" href="home"><img id="headerImage" src="./svccis/static/images/header_logo.png" alt="CIS Logo"></a>
             <a class="headerRight" href="projects_and_events">Projects and Events</a>
             <a class="headerRight" href="roster">Roster</a></th>
             <a class="headerRight" href="contact">Contact Us</a>
