@@ -6,8 +6,8 @@
     font-family: 'Montserrat', Arial, Helvetica, sans-serif;
     color: #282828;
 }
-body {
-    background-image: linear-gradient(to bottom right, rgb(114, 116, 178), rgb(31, 34, 114))
+h1 {
+    font-size: 64px;
 }
 .wrapper {
     display: flex;
@@ -17,25 +17,40 @@ body {
     padding: 5px;
 }
 .container {
-    padding: 15px 10px;
+    padding: 25px 0;
+    margin-top: 25px;
     width: 50%;
-    background-color: whitesmoke;
-    border: 1px solid whitesmoke;
-    border-radius: 25px;
+    background-color: #e7e7e7;
+    border: 1px solid #e7e7e7;
+    border-radius: 15px;
     text-align: center;
-    box-shadow: 2px 2px 2px gray;
+    box-shadow: 3px 6px 8px gray;
+}
+.element {
+    padding: 10px 0;
 }
 input, textarea {
     margin: 5px 0;
     padding: 10px;
 }
 input[type=text], input[type=email], textarea {
-    border: 1px solid white;
-    border-radius: 25px;
+    border: 2px solid white;
+    border-radius: 10px;
 }
-input[type=text]:focus, input[type=email]:focus, textarea:focus {
-    border: 1px solid white;
-    border-radius: 25px;
+input[type=submit] {
+    color: whitesmoke;
+    font-weight: bold;
+    background-color: rgb(114, 116, 178);
+    border: 2px solid rgb(114, 116, 178);
+    border-radius: 15px;
+    padding: 10px 25px;
+}
+input[type=submit] {
+    background-color: rgb(108, 110, 166);
+}
+input:focus, textarea:focus {
+    outline: none;
+    border-radius: 10px;
 }
 textarea {
     resize: none;
